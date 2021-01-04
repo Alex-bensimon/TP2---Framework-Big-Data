@@ -1,0 +1,27 @@
+{
+  "name": "schema project",
+  "csvOptions": {
+    "header": "false",
+    "inferSchema": "false",
+    "delimiter": ";"
+  },
+  "fields":
+  [
+    {
+      "name": "movie_name_123",
+      "type": "String"
+    },
+    {
+      "name": "number_of_views_123",
+      "type": "Long"
+    },
+    {
+      "name": "mark",
+      "type": "Double"
+    },
+    {
+      "name": "principal_actor",
+      "type": "String"
+    }
+  ]
+}
