@@ -2,8 +2,6 @@ import java.nio.file.Files
 
 import fr.esme.gdpr.configuration.JsonConfigProtocol._
 import fr.esme.gdpr.configuration.{ConfigReader, JsonConfig}
-import fr.esme.gdpr.services.{Service1, Service2, Service3}
-import fr.esme.gdpr.utils.schemas.DataFrameSchema
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.functions.lit
 import org.apache.spark.sql.{DataFrame, Row, SparkSession}
